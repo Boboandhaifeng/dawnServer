@@ -1,0 +1,12 @@
+# 前置规则，会合并到工程本地配置的前边
+before:
+  test:
+    - name: lint
+
+# 后置规则，会合并到工程本地配置的后边
+after:
+  test:
+    - name: shell
+      script:
+        - echo done
+        

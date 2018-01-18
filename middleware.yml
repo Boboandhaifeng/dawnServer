@@ -1,0 +1,3 @@
+shell: 
+  location: '@ali/dn-middleware-shell'
+  summary: 可执行 shell 的中间件
